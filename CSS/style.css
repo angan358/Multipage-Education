@@ -106,4 +106,65 @@ nav .navigation ul li a:hover{
 
 #home .btn{
     margin-top: 30px;
+
 }
+
+#home a.blue{
+    color: white;
+    background-color: rgb(21, 21, 100);
+}
+#home a.blue:hover{
+    color: rgb(21, 21, 100);
+    background: #fff;
+}
+
+#home a.Yellow{
+    color: white;
+    background:#FDC93B;
+    transition: 0.3s ease;
+}
+
+#home a.Yellow:hover{
+    color: white;
+    background:#FDC93B;
+
+}
+
+/* features section=== */
+#features{
+    padding: 5vw 8vw 0 8vw;
+    text-align: center;
+}
+.fea-box{
+    background-color: #F9F9FF;
+    text-align: start;
+}
+
+#features .fea-box  i{
+    font-size: 2.3rem;
+    color: rgb(44, 44, 80);
+}
+#features .fea-box  h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(46, 46, 59);
+    padding: 13px 0px 7px 0;
+    
+}
+#features .fea-box  h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(46, 46, 59);
+    padding: 13px 0px 7px 0;
+
+}
+#features .fea-base{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+#features .fea-box{
+    padding: 40px;
+}
+
