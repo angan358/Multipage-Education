@@ -290,6 +290,30 @@ nav .navigation ul li a:hover{
     background:#FDC93B;
 }
 
+#registration .form .btn{
+    margin-top: 25px;
+}
 
+#registration .form  input::placeholder{
+    color: #413c3c;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
 
+/* expert section==== */
 
+#experts{
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#experts .expert-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+#experts .expert-box .profile{
+    background: #f1f1e6;
+    padding: 30px 10px;
+}
