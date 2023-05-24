@@ -317,3 +317,19 @@ nav .navigation ul li a:hover{
     background: #f1f1e6;
     padding: 30px 10px;
 }
+#experts .expert-box .profile .pro-links{
+    margin-top: 10px;
+
+}
+.pro-links i{
+    padding: 10px 13px;
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
+}
+
+.pro-links i:hover{
+    background: rgb(21, 21, 100);
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
+    color: #fff;
+}
