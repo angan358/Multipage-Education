@@ -333,3 +333,7 @@ nav .navigation ul li a:hover{
     cursor: pointer;
     color: #fff;
 }
+.expert-box .profile .para{
+    margin-top: 10px;
+    font-size: 1.0rem;
+}
