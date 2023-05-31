@@ -367,3 +367,39 @@ footer li{
 footer li:hover{
     color: rgb(241, 240, 245);
 }
+footer p{
+    color: #7b838a;
+}
+footer .subscribe{
+    margin-top: 20px;
+
+}
+footer input{
+    width: 220px;
+    padding: 15px 12px;
+    background: #334f6c;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+footer .subscribe a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    background-color: white;
+    font-weight: 600;
+    
+}
+
+footer .subscribe a.Yellow{
+    color: white;
+    background:#FDC93B;
+    transition: 0.3s ease;
+}
+
+footer .subscribe a.Yellow:hover{
+   color: rgb(21, 21, 100);
+   background: #fff;
+
+}
