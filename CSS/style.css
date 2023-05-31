@@ -403,3 +403,27 @@ footer .subscribe a.Yellow:hover{
    background: #fff;
 
 }
+
+ footer .copyright{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+ footer .copyright .pro-links i{
+    padding: 10px 13px;
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #fff;
+}
+
+ footer .copyright .pro-links i:hover{
+    background: #fff;
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
+    color: blue;
+}
