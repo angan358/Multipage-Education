@@ -43,6 +43,14 @@ nav img{
     width: 150px;
     cursor: pointer;
 }
+nav .navigation{
+    display: flex;
+}
+
+#menu-btn{
+    width: 30px;
+    height: 30px;
+}
 
 nav .navigation ul{
     display: flex;
@@ -430,4 +438,18 @@ footer .subscribe a.Yellow:hover{
 }
 footer .copyright p{
     color: #fff;
+}
+
+
+/* making responsive code  */
+
+@media(max-width:769px){
+    nav {
+        padding: 15px 20px;
+    }
+    nav img {
+        width: 130px;
+        
+        
+    }
 }
